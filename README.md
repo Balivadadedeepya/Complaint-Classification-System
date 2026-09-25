@@ -8,6 +8,10 @@ This project demonstrates how machine learning and NLP techniques can be used to
 
 The system takes a complaint as input and predicts its relevant category.
 
+## 🚀 Live Demo
+
+[Try the Complaint Classification System](https://complaint-classification-system-dkvffcscvfesu4vdyesdy4.streamlit.app/)
+
 ## ✨ Features
 
 - 📝 Text-based complaint classification
