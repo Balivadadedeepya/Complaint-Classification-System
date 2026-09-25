@@ -29,6 +29,33 @@ The system takes a complaint as input and predicts its relevant category.
 - Natural Language Processing
 - Machine Learning
 
+## 🔄 How It Works
+
+1. 📝 User enters a customer complaint.
+2. 🔤 The complaint is converted into numerical features using TF-IDF.
+3. 🤖 A Logistic Regression model analyzes the text.
+4. 🏷️ The system predicts the complaint category.
+5. 📊 A confidence score is displayed to the user.
+
+## 🧪 Example
+
+**Input:**
+> My WiFi keeps disconnecting.
+
+**Predicted Category:**
+> Internet Issue
+
+The application provides the predicted category along with the model confidence.
+
+## 🛠️ Tech Stack
+
+- Python
+- Scikit-learn
+- TF-IDF
+- Logistic Regression
+- Streamlit
+- NLP
+  
 ## 🚀 Future Improvements
 
 - Add an interactive web interface
