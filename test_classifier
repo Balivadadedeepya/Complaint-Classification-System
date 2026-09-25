@@ -1,0 +1,18 @@
+from complaint_classifier import classify_complaint
+
+
+test_cases = [
+    "My internet is not working",
+    "I was charged extra on my bill",
+    "I cannot login to my account",
+    "My payment failed"
+]
+
+
+for complaint in test_cases:
+    category, confidence = classify_complaint(complaint)
+
+    print(f"Complaint: {complaint}")
+    print(f"Category: {category}")
+    print(f"Confidence: {confidence:.2f}%")
+    print("-" * 50)
